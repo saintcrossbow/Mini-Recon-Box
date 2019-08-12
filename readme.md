@@ -1,7 +1,9 @@
-#MiniReconBox
+# MiniReconBox
+
 This project was inspired by the upcoming Shark Jack and existing Netool.io. I really like the look of both of these products but I have way too many InfoSec toys. Suddenly I realized that my minipwner – a gadget I rarely deploy from my arsenal – could be repurposed to get similar details and possibly offer additional functionality.
 
 **Method**
+
 The minipwner offers a warwalk mode and a hidden Access Point as a drop box. 
 
 Find the method of creating one [via Ace Hackware](https://acehackware.zendesk.com/hc/en-us/articles/206785486-MiniPwner-Build-Guide).
