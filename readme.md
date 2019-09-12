@@ -35,8 +35,10 @@ Once network connections are opened, the LEDs are then repurposed to show payloa
 5. All lights will blink once when complete and then indicate connectivity status as per below
 
 **Connectivity Status**
+
 Once all payloads are complete, the outbound connectivity is displayed as follows:
 * The first LED (Ethernet) indicates that you can ping outbound based on IPv4
 * The second LED (WLAN) indicates that you can resolve DNS outbound
 * The third LED (Internet) indicates that you can access external webpage
+
 If all three are lit - you good to go!
