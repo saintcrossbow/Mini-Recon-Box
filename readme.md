@@ -39,6 +39,6 @@ Once network connections are opened, the LEDs are then repurposed to show payloa
 Once all payloads are complete, the outbound connectivity is displayed as follows:
 * The first LED (Ethernet) indicates that you can ping outbound based on IPv4
 * The second LED (WLAN) indicates that you can resolve DNS outbound
-* The third LED (Internet) indicates that you can access external webpage
+* The third LED (Internet) indicates that you can access external webpages
 
-If all three are lit - you good to go!
+If all three are lit you are good to go!
