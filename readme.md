@@ -20,7 +20,8 @@ The code I’ve created runs payloads when establishing the hidden access point. T
 3. Turn on device to gather loot
 4. Turn off and take device with you or just leave behind as typical WiFi dropbox.
 
-**Status**
+**Testing Status**
+
 All LEDs show normally as the Access Point and network connections are established. To best read it, orient the LEDs where power is on top – the status lights below it are as follows:
 * Ethernet
 * WLAN
@@ -31,4 +32,11 @@ Once network connections are opened, the LEDs are then repurposed to show payloa
 2. The first LED (Ethernet) indicates the network status payload has started. The interface configuration is saved and piped to a nmap payload that identifies OS and runs basic (safe) scripts. 
 3. The second LED (WLAN) indicates a brief sniffer dump has started. For sixty seconds, tcpdump is used to record any information found on the wire.
 4. The third LED (Internet) indicates that a ping test has started to see if the subnet can get out to the Internet.
-5. All lights will blink and extinguish after all payloads are complete.
+5. All lights will blink once when complete and then indicate connectivity status as per below
+
+**Connectivity Status**
+Once all payloads are complete, the outbound connectivity is displayed as follows:
+* The first LED (Ethernet) indicates that you can ping outbound based on IPv4
+* The second LED (WLAN) indicates that you can resolve DNS outbound
+* The third LED (Internet) indicates that you can access external webpage
+If all three are lit - you good to go!
